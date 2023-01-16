@@ -1,0 +1,84 @@
+/**************************/
+/* NAVIGATION */
+/**************************/
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	/* Because we want header to be sticky later */
+	height: 10.8rem;
+	padding: 0;
+	position: relative;
+
+	z-index: 100;
+}
+
+.logo {
+	height: 3.2rem;
+}
+
+/* .main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} */
+
+.main-nav-list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 4.8rem;
+}
+
+.main-nav-list {
+	list-style: none;
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	align-items: center;
+	gap: 3.6rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 1.6rem;
+	transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+}
+
+.nav-search {
+	width: 5.6rem;
+	height: 5.6rem;
+	border-radius: 28px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	font-size: 1.6rem;
+}
+
+/* .content-large {
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.content-small {
+	font-size: 32px;
+	font-weight: 900;
+}
+
+.box-content {
+	font-size: 16px;
+	font-family: Poppins;
+} */

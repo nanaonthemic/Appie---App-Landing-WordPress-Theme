@@ -1,0 +1,204 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	/* font-size: 10px; */
+
+	/* 10px / 16px = 0.625 = 62.5% */
+	/* Percentage of user's browser font-size setting */
+	font-size: 62.5%;
+	overflow-x: hidden;
+
+	/* Does NOT work on Safari */
+	/* scroll-behavior: smooth; */
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	/* line-height: 90px; */
+	/* font-weight: 600; */
+	color: #101010;
+
+	/* Only works if there is nothing absolutely positioned in relation to body */
+	overflow-x: hidden;
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+	/* 1140px */
+	max-width: 120rem;
+	/* padding: 0 3.2rem; */
+	margin: 0 auto;
+}
+
+.container-large {
+	/* 1140px */
+	max-width: 140rem;
+	padding: 0 2.4rem;
+	margin: 0 auto;
+}
+
+.grid {
+	display: grid;
+	column-gap: 6.4rem;
+	row-gap: 9.6rem;
+
+	/* margin-bottom: 9.6rem; */
+}
+
+.grid-sm {
+	display: grid;
+	column-gap: 2rem;
+	row-gap: 1.6rem;
+}
+
+.grid--1-col {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.grid--2-cols {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+	display: grid;
+	column-gap: 2.4rem;
+	row-gap: 2.4rem;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: stretch;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+	letter-spacing: -0.5px;
+}
+
+.heading-primary {
+	color: #101010;
+	font-size: 7.8rem;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+	font-size: 4.4rem;
+	line-height: 4.8rem;
+	text-align: center;
+	/* margin-bottom: 9.6rem; */
+}
+
+.heading-tertiary {
+	font-size: 3.2rem;
+	font-weight: 700;
+	line-height: 1.6;
+	margin-bottom: 3.2rem;
+}
+
+.subheading {
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #c02ed0;
+	/* text-transform: uppercase; */
+	/* margin-bottom: 1.6rem; */
+	/* letter-spacing: 0.75px; */
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	position: relative;
+
+	text-decoration: none;
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 0;
+	padding: 2.8rem 3.2rem;
+	border-radius: 3.2rem;
+
+	/* Only necessary for .btn */
+	/* border: none; */
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+
+	/* Put transition on original "state" */
+	/* transition: background-color 0.3s; */
+	/* transition: all 0.3s; */
+	overflow: hidden;
+}
+
+.btn.btn--full:link,
+.btn.btn--full:visited {
+	background-color: #7186f5;
+	color: white;
+	/* overflow: hidden; */
+}
+
+.btn--full::before {
+	content: "";
+	text-align: left;
+	transition: 0.3s;
+	transform: rotate(0deg) scale(1);
+	background-color: #9d55e2;
+	position: absolute;
+	left: -100%;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.btn--full:hover::before {
+	content: "";
+	left: 0%;
+}
+
+.btn--full p {
+	position: relative;
+	z-index: 20;
+}
+
+.btn--try:link,
+.btn--try:visited {
+	background-color: transparent;
+	color: #7186f5;
+	text-decoration: underline;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.margin-bottom-md {
+	margin-bottom: 4.8rem !important;
+}
+
+/* POSITION  */
+
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.top-50 {
+	top: 50%;
+}
+
+.start-0 {
+	left: 0%;
+}
+
+.end-0 {
+	right: 0%;
+}

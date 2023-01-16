@@ -1,0 +1,110 @@
+.section-pricing {
+	margin: 9.6rem 0;
+}
+
+.pricing {
+	/* background-color: red; */
+	background-image: url("../image/pricing-bg.jpeg");
+	background-position: top left;
+	background-repeat: repeat;
+	background-size: auto;
+	padding: 9.6rem 0 6.4rem 0;
+}
+
+.pricing-cover {
+	display: flex;
+}
+
+.pricing-plan {
+	background-color: rgba(255, 255, 255, 255);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	padding: 2.4rem;
+	align-self: center;
+}
+
+.plan-header {
+	background-color: transparent;
+	background-image: linear-gradient(45deg, #bf2fd2 0%, #7b7bf1 100%);
+	border-radius: 5px;
+	padding: 1.6rem 4.8rem 2rem 4.8rem;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.plan-header-standard {
+	background-color: transparent;
+	background-image: linear-gradient(45deg, #bf2fd2 0%, #7b7bf1 100%);
+	border-radius: 5px;
+	padding: 1.6rem 4.8rem 3.6rem 4.8rem;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.plan-name {
+	color: white;
+	font-family: "Poppins", Sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.plan-price {
+	font-size: 6.2rem;
+	font-weight: 600;
+	color: white;
+	/* margin-bottom: 1.6rem; */
+	font-size: 3rem;
+}
+
+.plan-price span {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-right: 0.8rem;
+}
+
+.plan-list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 3.2rem 0;
+}
+
+.plan-list-item {
+	color: #878787;
+	font-size: 1.8rem;
+	line-height: 2.8;
+}
+
+.plan-purchase {
+	display: flex;
+	justify-content: center;
+}
+
+.plan-popular-box {
+	display: flex;
+	justify-content: center;
+	margin-top: -20px;
+}
+
+.plan-popular {
+	width: 60%;
+	height: 10%;
+	color: #c02ed1;
+	font-size: 1.8rem;
+	font-weight: 500;
+	background-color: #f1e3fb;
+	border: 0.3rem solid white;
+	border-radius: 30px;
+	/* margin: -6px 0 0; */
+	padding: 17px 26px;
+	display: flex;
+	align-items: center;
+}
+
+/* .plan-popular p {
+	color: 
+} */

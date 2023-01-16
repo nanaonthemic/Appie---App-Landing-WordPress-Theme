@@ -1,0 +1,75 @@
+.reactions {
+	display: flex;
+	align-items: center;
+}
+
+.reactions-image {
+	vertical-align: middle;
+	display: inline-block;
+	max-width: 68rem;
+}
+
+.reactions-img {
+	height: auto;
+}
+
+.reactions-content {
+	/* margin-right: 4rem; */
+	max-width: 60rem;
+}
+
+.reactions-box {
+}
+
+.list-items {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	margin: 2.4rem 0 2.4rem 0;
+}
+
+.list-item {
+	display: flex;
+	align-items: center;
+	font-size: inherit;
+}
+
+.list-icon {
+	display: flex;
+}
+
+.list-icon i {
+	color: #c02ed1;
+	font-size: 1.6rem;
+}
+
+.list-text {
+	font-family: "Poppins";
+	font-size: 1.6rem;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 1.6;
+	color: #54595f;
+	padding: 0.5rem;
+}
+
+/* SECTION EXPERIENCE  */
+.experience {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.experience-image {
+	vertical-align: middle;
+	display: inline-block;
+	max-width: 68rem;
+	background-image: url("https://tf.quomodosoft.com/appie/wp-content/uploads/2022/10/3D-Shape-2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.experience-content {
+	max-width: 60rem;
+}

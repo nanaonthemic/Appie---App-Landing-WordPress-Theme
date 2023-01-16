@@ -1,0 +1,57 @@
+.section-news {
+}
+
+.news {
+	background-image: url("https://tf.quomodosoft.com/appie/wp-content/uploads/2022/10/Pattern-Shape-blog.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 9.6rem 0;
+}
+
+.news-item {
+	font-size: 1.6rem;
+}
+
+.news-thumb {
+	overflow: hidden;
+}
+
+.news-item:hover > .news-thumb img {
+	transform: scale(1.2);
+	border-radius: 5px;
+}
+
+.news-thumb img {
+	width: 100%;
+	transition: 0.3s ease-out;
+	border-radius: 5px;
+	/* margin-bottom: 2.4rem; */
+}
+
+.news-status {
+	display: flex;
+	gap: 4rem;
+	margin: 2.4rem 0;
+}
+
+.news-item i {
+	color: rgba(195, 58, 211, 255);
+}
+
+.news-item a {
+	text-decoration: none;
+}
+
+.news-title a {
+	color: black;
+	font-size: 2.4rem;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	line-height: 1.6;
+	transition: 0.3s;
+}
+
+.news-title a:hover {
+	color: rgba(195, 58, 211, 255);
+}

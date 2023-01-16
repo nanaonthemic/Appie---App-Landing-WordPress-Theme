@@ -1,0 +1,81 @@
+.section-testimonials {
+	/* display: flex;
+	align-items: center;
+	margin: 50px 0; */
+	margin: 16rem auto;
+}
+
+.testimonial {
+	display: flex;
+}
+
+.testimonial-img {
+	background-image: url("https://tf.quomodosoft.com/appie/wp-content/uploads/2022/10/Group-3481.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 44rem;
+	display: flex;
+	max-width: 68rem;
+	flex-basis: 60%;
+}
+
+.testimonial-content {
+	max-width: 52rem;
+	flex-basis: 40%;
+}
+
+/* .testimonial-shape img {
+	width: 100%;
+	height: auto;
+} */
+
+#shape-1 {
+	top: -16%;
+	left: 20%;
+}
+#shape-2 {
+	top: 52%;
+	left: 8%;
+}
+#shape-3 {
+	top: 36%;
+	left: 66%;
+}
+
+.author-container {
+	background-image: url("../image/testimonial-bg.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: auto;
+	/* margin-right: 100px; */
+	margin-left: 20px;
+}
+
+.author-container .box-content {
+	margin-left: 30px;
+	padding-top: 65px;
+	font-style: italic;
+	color: #505056;
+	font-size: 1.8rem;
+	font-family: Poppins;
+}
+
+.author {
+	display: flex;
+}
+
+.author-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.author-job {
+	font-size: 1.6rem;
+	font-family: Poppins;
+	margin-left: 0;
+}
+
+.author-name {
+	font-size: 2rem;
+}
